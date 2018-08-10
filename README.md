@@ -1,21 +1,14 @@
 # Yard
 
-**TODO: Add description**
+## Why I've done this
 
-## Installation
+I was just fascinated on how [`Supervisors`](https://hexdocs.pm/elixir/Supervisor.html) works on Elixir programming language, so I've decided to explore a little bit more about it!
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `yard` to your list of dependencies in `mix.exs`:
+## How it works?
 
-```elixir
-def deps do
-  [
-    {:yard, "~> 0.1.0"}
-  ]
-end
-```
+`Yard` is just a module for controlling trains! I really use a lot of the subway service in São Paulo, so that was my inspiration.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/yard](https://hexdocs.pm/yard).
+You can just `git clone` the project, and run in the root `iex -S mix`, who will run the `Elixir's Interactive Shell` session with the Yard module used.
+And there is no worries about dependencies, I write this in bare metal Elixir, no dependencies :sparkling_heart:! With `Elixir v1.7.2` and `Erlang v21.0`, you can really enjoy this features!
 
+![Image of the program running](assets/usage.jpeg)
