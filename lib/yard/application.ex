@@ -7,7 +7,7 @@ defmodule Yard.Application do
     # List all child processes to be supervised
     children = [
       Yard.Server,
-      Yard.TrainSupervisor,
+      Yard.TrainSupervisor
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
